@@ -1,0 +1,28 @@
+{
+  "info": {
+    "name": "Express MySQL Users API",
+    "description": "Postman collection for ExpressJS GET /users API",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "variable": [
+    {
+      "key": "BASE_URL",
+      "value": "http://localhost:5000"
+    }
+  ],
+  "item": [
+    {
+      "name": "GET All Users",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{BASE_URL}}/users",
+          "host": ["{{BASE_URL}}"],
+          "path": ["users"]
+        }
+      },
+      "response": []
+    }
+  ]
+}
